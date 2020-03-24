@@ -1,0 +1,38 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{ font-weight: 900px;
+	color: white;
+}
+hr{ border-color: orange;
+	border width: 3px;
+	max-width: 90px;
+}
+.btn{
+	font-weight: 700px;
+	border-radius: 900px;
+	text-transform: uppercase;
+}
+.buffer{height: 2rem;
+}
+/*for heght pixels also can be used instead of rem*/
+.btn-outline-primary{
+	background-color: orange;
+	border-color: orange;
+}
+.btn-outline-primary:hover{
+	background-color: gold;
+	transform: scale(1.1);      ;
+}
+/*border width; can be used instead of scale*/
+.buttonsize{
+  padding: 1rem 1rem;
+  }
